@@ -1,4 +1,4 @@
-# React-lms-frontend
+# React-LMS-frontend
 
 React Learning Management System (LMS) frontend - interactive course lessons with progress tracking.
 
