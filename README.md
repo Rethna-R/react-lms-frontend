@@ -4,7 +4,7 @@ A mini React LMS frontend project showing interactive lessons with progress trac
 
 ## Features
 - Display course title, description, and duration
-- Static lesson list (Introduction, Basics, Advanced, Summary)
+- Static lesson list: Introduction, Basics, Advanced, Summary
 - Click a lesson to view details
   - Highlight selected lesson
   - Show lesson description
@@ -19,6 +19,5 @@ A mini React LMS frontend project showing interactive lessons with progress trac
 
 ## How to Run
 1. Clone the repository:
-   ```bash
    ```bash
    git clone https://github.com/Rethna-R/react-lms-frontend.git
