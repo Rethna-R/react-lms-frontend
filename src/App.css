@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #e3f2fd, #fce4ec);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.page {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.lms-card {
+  background: #ffffff;
+  width: 450px;
+  padding: 28px;
+  border-radius: 14px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.course-title {
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.course-desc {
+  color: #555;
+  font-size: 14px;
+}
+
+.course-meta {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  font-size: 13px;
+  color: #444;
+}
+
+.progress-box {
+  margin-bottom: 20px;
+}
+
+.progress-text {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4caf50, #81c784);
+}
+
+.section-title {
+  margin-bottom: 10px;
+}
+
+.lesson-list {
+  list-style: none;
+  padding: 0;
+}
+
+.lesson-item {
+  background: #f5f7fa;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.lesson-item:hover {
+  background: #e3f2fd;
+}
+
+.lesson-item.active {
+  background: #1976d2;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.lesson-title {
+  font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.lesson-duration {
+  font-size: 12px;
+  margin-left: 8px;
+  opacity: 0.8;
+}
+
+.check {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.lesson-details {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.complete-btn {
+  margin-top: 10px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.complete-btn:hover {
+  background: #388e3c;
+}
+
+.completed-info {
+  margin-top: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+.lesson-count {
+  font-size: 14px;
+  color: #4b5563;
+  margin-bottom: 10px;
 }
